@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package recording;
+
+option go_package = "./RecordingControl";
+
+service RecodingControl {
+  rpc start (StartRequest) returns (ServerReply) {}
+  rpc stop (StopRequest) returns (ServerReply) {}
+}
+
+message StartRequest {
+  string fileName = 1;
+}
+
+message StopRequest {}
+
+message ServerReply {
+  bool success = 1;
+}
