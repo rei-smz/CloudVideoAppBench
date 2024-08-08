@@ -11,48 +11,36 @@ import (
 
 type requestController struct {
 	pb.UnimplementedRecodingControlServer
-	controlCh   chan bool
-	fileNameCh  chan string
-	getterRetCh chan bool
+	metricsGetter MetricsGetter.MetricsGetter
 }
 
 func (c *requestController) Start(ctx context.Context, in *pb.StartRequest) (*pb.ServerReply, error) {
 	log.Println("Received start request")
-	c.controlCh <- true
-	c.fileNameCh <- in.FileName
-	return &pb.ServerReply{Success: <-c.getterRetCh}, nil
+	return &pb.ServerReply{Success: c.metricsGetter.Start(in.FileName)}, nil
 }
 
 func (c *requestController) Stop(ctx context.Context, in *pb.StopRequest) (*pb.ServerReply, error) {
 	log.Println("Received stop request")
-	c.controlCh <- false
-	return &pb.ServerReply{Success: <-c.getterRetCh}, nil
+	return &pb.ServerReply{Success: c.metricsGetter.Stop()}, nil
 }
 
 type RPCServer struct {
-	grpcServer    *grpc.Server
-	metricsGetter *MetricsGetter.MetricsGetter
+	grpcServer *grpc.Server
 }
 
-func NewRPCServer() *RPCServer {
+func NewRPCServer(metricsGetter MetricsGetter.MetricsGetter) *RPCServer {
 	s := grpc.NewServer()
 	reqController := requestController{
-		controlCh:   make(chan bool),
-		fileNameCh:  make(chan string),
-		getterRetCh: make(chan bool),
+		metricsGetter: metricsGetter,
 	}
 	pb.RegisterRecodingControlServer(s, &reqController)
 
 	return &RPCServer{
 		grpcServer: s,
-		metricsGetter: MetricsGetter.NewMetricsGetter(reqController.controlCh,
-			reqController.fileNameCh, reqController.getterRetCh),
 	}
 }
 
 func (s *RPCServer) ListenAndServe() {
-	go s.metricsGetter.Run()
-
 	log.Println("Server is starting...")
 	lis, err := net.Listen("tcp", ":50051")
 	if err != nil {

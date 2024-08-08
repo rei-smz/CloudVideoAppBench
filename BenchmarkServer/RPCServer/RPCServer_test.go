@@ -3,25 +3,21 @@ package RPCServer
 import (
 	"context"
 	"github.com/stretchr/testify/assert"
+	"go.uber.org/mock/gomock"
+	"main/MetricsGetter"
 	pb "main/RecordingControl"
 	"testing"
 )
 
 func TestRequestController_Start(t *testing.T) {
-	testControlCh := make(chan bool)
-	testFileNameCh := make(chan string)
-	testGetterRetCh := make(chan bool)
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+	mockMetricsGetter := MetricsGetter.NewMockMetricsGetter(ctrl)
 	testRC := &requestController{
-		controlCh:   testControlCh,
-		fileNameCh:  testFileNameCh,
-		getterRetCh: testGetterRetCh,
+		metricsGetter: mockMetricsGetter,
 	}
 
-	go func() {
-		assert.Equal(t, true, <-testControlCh)
-		assert.Equal(t, "test_file_name", <-testFileNameCh)
-		testGetterRetCh <- true
-	}()
+	mockMetricsGetter.EXPECT().Start("test_file_name").Return(true)
 	reply, err := testRC.Start(context.Background(), &pb.StartRequest{FileName: "test_file_name"})
 
 	assert.NoError(t, err)
@@ -29,19 +25,14 @@ func TestRequestController_Start(t *testing.T) {
 }
 
 func TestRequestController_Stop(t *testing.T) {
-	testControlCh := make(chan bool)
-	testFileNameCh := make(chan string)
-	testGetterRetCh := make(chan bool)
+	ctrl := gomock.NewController(t)
+	defer ctrl.Finish()
+	mockMetricsGetter := MetricsGetter.NewMockMetricsGetter(ctrl)
 	testRC := &requestController{
-		controlCh:   testControlCh,
-		fileNameCh:  testFileNameCh,
-		getterRetCh: testGetterRetCh,
+		metricsGetter: mockMetricsGetter,
 	}
 
-	go func() {
-		assert.Equal(t, false, <-testControlCh)
-		testGetterRetCh <- true
-	}()
+	mockMetricsGetter.EXPECT().Stop().Return(true)
 	reply, err := testRC.Stop(context.Background(), &pb.StopRequest{})
 
 	assert.NoError(t, err)
