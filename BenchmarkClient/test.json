@@ -1,0 +1,13 @@
+{
+  "n_user": 5,
+  "duration": 30,
+  "id_range": 30,
+  "wait": 5,
+  "url": "testurl",
+  "obj": "video.mp4",
+  "test_name": "test",
+  "path_prefix": "faas-test/",
+  "args": {
+    "mode": "fast"
+  }
+}

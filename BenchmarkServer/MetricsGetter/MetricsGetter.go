@@ -2,7 +2,6 @@ package MetricsGetter
 
 import (
 	"log"
-	"os"
 )
 
 type MetricsGetter interface {
@@ -12,17 +11,18 @@ type MetricsGetter interface {
 }
 
 // NewMetricsGetter is a factory function creating an object of the concrete classes implementing interface MetricsGetter
-func NewMetricsGetter() MetricsGetter {
-	metricsType := os.Getenv("METRICS_TYPE")
-	if metricsType == "" {
-		log.Println("METRICS_TYPE missing")
-		return nil
-	}
+func NewMetricsGetter(metricsType string) MetricsGetter {
+	//metricsType := os.Getenv("METRICS_TYPE")
 
 	switch metricsType {
 	case "k8s":
-		return NewK8sMetricsGetter(make(chan bool), make(chan string), make(chan bool))
+		{
+			return NewK8sMetricsGetter(make(chan bool), make(chan string), make(chan bool))
+		}
 	default:
-		return nil
+		{
+			log.Println("METRICS_TYPE missing or invalid")
+			return nil
+		}
 	}
 }

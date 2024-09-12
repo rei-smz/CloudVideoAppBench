@@ -1,4 +1,4 @@
-package ClientBench
+package Bench
 
 import (
 	"fmt"
@@ -13,17 +13,17 @@ import (
 )
 
 type ClientBench struct {
-	properties *BenchProperties
-	results    []map[string]any
-	resultsMu  sync.Mutex
-	rpcClient  RPCClient.RPCClient
+	benchConfig *BenchConfig
+	results     []map[string]any
+	resultsMu   sync.Mutex
+	rpcClient   RPCClient.RPCClient
 }
 
 // NewClientBench creates a ClientBench object.
-func NewClientBench() *ClientBench {
-	properties := LoadProperties()
-	if properties == nil {
-		log.Fatalln("Failed loading properties.")
+func NewClientBench(confPath string) *ClientBench {
+	config := LoadConfig(confPath)
+	if config == nil {
+		log.Fatalln("Failed loading benchConfig.")
 		return nil
 	}
 
@@ -34,8 +34,8 @@ func NewClientBench() *ClientBench {
 	}
 
 	return &ClientBench{
-		properties: properties,
-		rpcClient:  rpcClient,
+		benchConfig: config,
+		rpcClient:   rpcClient,
 	}
 }
 
@@ -46,7 +46,7 @@ func (cb *ClientBench) Bench() {
 		log.Fatalln("Failed to connect to server module")
 		return
 	}
-	err = cb.rpcClient.RequestStart(cb.properties.TestName + time.Now().String())
+	err = cb.rpcClient.RequestStart(cb.benchConfig.TestName + time.Now().String())
 	if err != nil {
 		log.Println("Failed to start recording on server module. You may start it manually.")
 	}
@@ -54,13 +54,13 @@ func (cb *ClientBench) Bench() {
 	// Create goroutine for each user
 	stopCh := make(chan struct{})
 	var wg sync.WaitGroup
-	for range cb.properties.NumUser {
+	for range cb.benchConfig.NumUser {
 		wg.Add(1)
 		go cb.request(HTTPController.NewHTTPController(), stopCh, &wg)
 	}
 
 	// Wait for duration end and turn off goroutines
-	time.Sleep(time.Duration(cb.properties.Duration) * time.Millisecond)
+	time.Sleep(time.Duration(cb.benchConfig.Duration) * time.Millisecond)
 	close(stopCh)
 	wg.Wait()
 
@@ -74,7 +74,7 @@ func (cb *ClientBench) Bench() {
 	cb.saveResults()
 }
 
-// request sends user requests and handle responses every properties.UserWaiting seconds.
+// request sends user requests and handles responses every benchConfig.UserWaiting seconds.
 func (cb *ClientBench) request(httpController HTTPController.HTTPController, stopCh <-chan struct{}, wg *sync.WaitGroup) {
 	defer wg.Done()
 	//time.Sleep(time.Duration(rand.Intn(5)) * time.Second)
@@ -85,13 +85,15 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 			return
 		default:
 			// Send http request
-			objectPath := cb.properties.PathPrefix +
-				strconv.Itoa(rand.Intn(cb.properties.UserIdRange)) +
-				"/" + cb.properties.ObjectName
-			reqBody := make(map[string]string)
-			reqBody["path"] = objectPath
+			objectPath := cb.benchConfig.PathPrefix +
+				strconv.Itoa(rand.Intn(cb.benchConfig.UserIdRange)) +
+				"/" + cb.benchConfig.ObjectName
+			//reqBody := make(map[string]string)
+			reqBody := cb.benchConfig.ReqArgs
+			reqBody["obj_path"] = objectPath
+
 			startT := time.Now()
-			response := httpController.Post(cb.properties.URL, reqBody)
+			response := httpController.Post(cb.benchConfig.URL, reqBody)
 			timeCost := time.Since(startT)
 			// Handle response
 			if response == nil {
@@ -105,7 +107,7 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 				cb.resultsMu.Unlock()
 			}
 			// Wait
-			time.Sleep(time.Duration(cb.properties.UserWaiting) * time.Millisecond)
+			time.Sleep(time.Duration(cb.benchConfig.UserWaiting) * time.Millisecond)
 		}
 	}
 }
@@ -116,7 +118,7 @@ func (cb *ClientBench) saveResults() {
 	errorRequests := 0
 	totalRTT := 0
 
-	file, err := os.OpenFile(cb.properties.TestName+"-"+time.Now().String(), os.O_CREATE|os.O_WRONLY, 0664)
+	file, err := os.OpenFile(cb.benchConfig.TestName+"-"+time.Now().String(), os.O_CREATE|os.O_WRONLY, 0664)
 	if err != nil {
 		log.Fatalln("Can not create result file")
 		return

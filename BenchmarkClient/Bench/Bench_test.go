@@ -1,4 +1,4 @@
-package ClientBench
+package Bench
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -11,7 +11,7 @@ import (
 
 func NewTestClient(client RPCClient.RPCClient) *ClientBench {
 	return &ClientBench{
-		properties: &BenchProperties{
+		benchConfig: &BenchConfig{
 			NumUser:     1,
 			Duration:    45,
 			UserIdRange: 1,
@@ -20,6 +20,7 @@ func NewTestClient(client RPCClient.RPCClient) *ClientBench {
 			PathPrefix:  "testPath",
 			ObjectName:  "testObj",
 			TestName:    "test",
+			ReqArgs:     make(map[string]string),
 		},
 		rpcClient: client,
 	}

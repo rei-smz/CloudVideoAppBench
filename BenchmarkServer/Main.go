@@ -5,6 +5,7 @@ import (
 	"log"
 	"main/MetricsGetter"
 	"main/RPCServer"
+	"os"
 )
 
 func main() {
@@ -13,7 +14,7 @@ func main() {
 		return
 	}
 
-	metricsGetter := MetricsGetter.NewMetricsGetter()
+	metricsGetter := MetricsGetter.NewMetricsGetter(os.Getenv("METRICS_TYPE"))
 	if metricsGetter == nil {
 		log.Fatalln("Cannot create metrics getter")
 		return
