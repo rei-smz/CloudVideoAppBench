@@ -1,0 +1,3 @@
+[submodule "faas-trancode"]
+	path = faas-trancode
+	url = https://github.com/rei-smz/faas-transcode.git

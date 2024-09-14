@@ -3,15 +3,20 @@ package main
 import (
 	"github.com/joho/godotenv"
 	"log"
-	"main/ClientBench"
+	"main/Bench"
+	"os"
 )
 
 func main() {
-	if err := godotenv.Load(); err != nil {
-		log.Println("No .env file found")
+	if len(os.Args) == 1 {
+		log.Println("Please specify your test config file")
 		return
 	}
-	bench := ClientBench.NewClientBench()
+	if err := godotenv.Load(); err != nil {
+		log.Fatalln("No .env file found")
+		return
+	}
+	bench := Bench.NewClientBench(os.Args[1])
 	if bench == nil {
 		log.Fatalln("Failed initialising bench.")
 		return
