@@ -8,7 +8,7 @@ import (
 )
 
 type HTTPController interface {
-	Post(url string, body map[string]string) map[string]any
+	Post(url string, body map[string]any) map[string]any
 }
 
 type httpController struct {
@@ -21,7 +21,7 @@ func NewHTTPController() HTTPController {
 	}
 }
 
-func (c *httpController) Post(url string, body map[string]string) map[string]any {
+func (c *httpController) Post(url string, body map[string]any) map[string]any {
 	bodyBytes, err := json.Marshal(body)
 	if err != nil {
 		log.Println("Error converting map to JSON:", err)

@@ -8,28 +8,27 @@ import (
 )
 
 type BenchConfig struct {
-	NumUser     int               `json:"n_user"`
-	Duration    int               `json:"duration"`
-	UserIdRange int               `json:"id_range"`
-	UserWaiting int               `json:"wait"`
-	URL         string            `json:"url"`
-	PathPrefix  string            `json:"path_prefix"`
-	ObjectName  string            `json:"obj"`
-	TestName    string            `json:"test_name"`
-	ReqArgs     map[string]string `json:"args"`
+	NumUser     int            `json:"n_user"`
+	Duration    int            `json:"duration"`
+	UserIdRange int            `json:"id_range"`
+	UserWaiting int            `json:"wait"`
+	URL         string         `json:"url"`
+	PathPrefix  string         `json:"path_prefix"`
+	TestName    string         `json:"test_name"`
+	ReqArgs     map[string]any `json:"req_args"`
 }
 
 func LoadConfig(confPath string) *BenchConfig {
 	jsonFile, err := os.Open(confPath)
 	if err != nil {
-		log.Fatalln("PropertyFile missing")
+		log.Fatalln("Config file missing")
 		return nil
 	}
 	defer jsonFile.Close()
 
 	byteVal, err := io.ReadAll(jsonFile)
 	if err != nil {
-		log.Fatalln("Unable to open PropertyFile")
+		log.Fatalln("Unable to open config file")
 		return nil
 	}
 
