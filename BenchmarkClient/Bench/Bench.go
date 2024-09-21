@@ -87,7 +87,7 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 		default:
 			// Send http request
 			objectPath := cb.benchConfig.PathPrefix +
-				strconv.Itoa(rand.Intn(cb.benchConfig.UserIdRange-1))
+				strconv.Itoa(rand.Intn(cb.benchConfig.UserIdRange))
 			reqBody := maps.Clone(cb.benchConfig.ReqArgs)
 			reqBody["path"] = objectPath
 
