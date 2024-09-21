@@ -7,7 +7,7 @@ import (
 )
 
 type MetricsGetter interface {
-	Run(recordMethod func() string)
+	Run()
 	Start(fileName string) bool
 	Stop() bool
 	recordMetrics() string
@@ -30,7 +30,7 @@ func (g *metricsGetter) Stop() bool {
 	return <-g.retCh
 }
 
-func (g *metricsGetter) Run(recordMethod func() string) {
+func (g *metricsGetter) Run() {
 	log.Println("MetricsGetter started")
 	running := false
 	var file *os.File
@@ -65,11 +65,15 @@ func (g *metricsGetter) Run(recordMethod func() string) {
 			}
 		default:
 			if running {
-				file.WriteString(recordMethod())
+				file.WriteString(g.recordMetrics())
 				time.Sleep(15 * time.Second)
 			}
 		}
 	}
+}
+
+func (g *metricsGetter) recordMetrics() string {
+	return ""
 }
 
 // NewMetricsGetter is a factory function creating an object of the concrete classes implementing interface metricsGetter
