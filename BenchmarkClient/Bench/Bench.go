@@ -5,6 +5,7 @@ import (
 	"log"
 	"main/HTTPController"
 	"main/RPCClient"
+	"maps"
 	"math/rand"
 	"os"
 	"strconv"
@@ -60,7 +61,7 @@ func (cb *ClientBench) Bench() {
 	}
 
 	// Wait for duration end and turn off goroutines
-	time.Sleep(time.Duration(cb.benchConfig.Duration) * time.Millisecond)
+	time.Sleep(time.Duration(cb.benchConfig.Duration) * time.Second)
 	close(stopCh)
 	wg.Wait()
 
@@ -86,11 +87,9 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 		default:
 			// Send http request
 			objectPath := cb.benchConfig.PathPrefix +
-				strconv.Itoa(rand.Intn(cb.benchConfig.UserIdRange)) +
-				"/" + cb.benchConfig.ObjectName
-			//reqBody := make(map[string]string)
-			reqBody := cb.benchConfig.ReqArgs
-			reqBody["obj_path"] = objectPath
+				strconv.Itoa(rand.Intn(cb.benchConfig.UserIdRange))
+			reqBody := maps.Clone(cb.benchConfig.ReqArgs)
+			reqBody["path"] = objectPath
 
 			startT := time.Now()
 			response := httpController.Post(cb.benchConfig.URL, reqBody)
@@ -107,7 +106,7 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 				cb.resultsMu.Unlock()
 			}
 			// Wait
-			time.Sleep(time.Duration(cb.benchConfig.UserWaiting) * time.Millisecond)
+			time.Sleep(time.Duration(cb.benchConfig.UserWaiting) * time.Second)
 		}
 	}
 }
@@ -116,9 +115,9 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 func (cb *ClientBench) saveResults() {
 	totalRequests := len(cb.results)
 	errorRequests := 0
-	totalRTT := 0
+	var totalRTT int64 = 0
 
-	file, err := os.OpenFile(cb.benchConfig.TestName+"-"+time.Now().String(), os.O_CREATE|os.O_WRONLY, 0664)
+	file, err := os.Create(cb.benchConfig.TestName + "-" + time.Now().Format("2006-01-02-15-04-05"))
 	if err != nil {
 		log.Fatalln("Can not create result file")
 		return
@@ -126,14 +125,14 @@ func (cb *ClientBench) saveResults() {
 	defer file.Close()
 
 	// Read results and process
-	file.WriteString("time stamp\tstatus code\tresponse time\n")
+	file.WriteString("time_stamp\tstatus_code\tresponse_time\n")
 	for _, res := range cb.results {
-		ws := fmt.Sprintf("%v\t%v\t%v\n", res["time_stamp"], res["status_code"].(string), res["rtt"].(int))
+		ws := fmt.Sprintf("%v\t%v\t%v\n", res["time_stamp"], res["status_code"], res["rtt"])
 		file.WriteString(ws)
-		if res["status_code"].(string) != "200" {
+		if res["status_code"] != 200 {
 			errorRequests++
 		}
-		totalRTT += res["rtt"].(int)
+		totalRTT += res["rtt"].(int64)
 	}
 
 	errorRate := float64(errorRequests) / float64(totalRequests)
