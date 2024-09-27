@@ -24,7 +24,7 @@ func (g *metricsGetter) Start(fileName string) bool {
 }
 
 func (g *metricsGetter) Stop() bool {
-	time.Sleep(15 * time.Second)
+	time.Sleep(30 * time.Second)
 	g.controlCh <- false
 	return <-g.retCh
 }
