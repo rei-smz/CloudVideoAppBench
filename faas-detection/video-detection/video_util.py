@@ -27,3 +27,8 @@ def select_key_frames(frames, fps):
     # 简单选择每秒的第一帧作为关键帧
     key_frames = [frames[i] for i in range(0, len(frames), fps)]
     return key_frames
+
+def preprocess(video_path):
+    frames, fps, width, height = load_video(video_path)
+    key_frames = select_key_frames(frames, fps)
+    return width, height, key_frames

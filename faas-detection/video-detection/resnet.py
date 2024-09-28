@@ -23,13 +23,14 @@ def detect_objects(frame):
 
 
 async def run(video_path):
-    frames, fps, width, height = video_util.load_video(video_path)
-    key_frames = video_util.select_key_frames(frames, fps)
-    response = []
+    # frames, fps, width, height = video_util.load_video(video_path)
+    # key_frames = video_util.select_key_frames(frames, fps)
+    width, height, key_frames = video_util.preprocess(video_path)
+    response = {"width": width, "height": height, "results": []}
     for frame in key_frames:
         results = detect_objects(video_util.resize_frame(frame))
         results = {key: results[key][0].numpy().tolist() for key in ["detection_boxes", "detection_class_entities", "detection_scores"]}
-        response.append(response)
+        response["results"].append(results)
     return response
         # print(results)
         # detection_boxes = results["detection_boxes"]
