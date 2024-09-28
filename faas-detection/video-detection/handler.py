@@ -14,11 +14,6 @@ def get_secret(key):
     with open("/var/openfaas/secrets/{}".format(key)) as f:
         return f.read().strip()
 
-if os.name == 'nt':
-  SHELL = 'pwsh'
-else:
-  SHELL = 'sh'
-
 MINIO_ENDPOINT = os.getenv('MINIO_ENDPOINT')
 MINIO_ACCESS_KEY = get_secret("minio-access-key")
 MINIO_SECRET_KEY = get_secret("minio-secret-key")
@@ -47,7 +42,7 @@ def handle(event, context):
     obj_name = body.get('object')
     args = body.get('args', {})
     mode = args.get('mode', 'lw')
-    current_time = time.strftime("%Y-%m-%d-%H%M%S", time.localtime())
+    current_time = str(time.time_ns())
 
     # get video
     tmp_path = current_time + '-' + path.split('/')[-1]
@@ -67,6 +62,7 @@ def handle(event, context):
     elif mode == 'hp':
         response = asyncio.run(resnet.run(tmp_path + '/' + obj_name))
     else:
+        shutil.rmtree(tmp_path)
         return {"statusCode": 400, "body": "Mode is invalid"}
     
     return {
