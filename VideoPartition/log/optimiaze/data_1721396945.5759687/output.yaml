@@ -1,0 +1,11 @@
+config:
+frame.interval:30
+flink.config:standalone
+kafka.config:standalone
+input.file:sample1,sample1
+label:
+timestamp:1721396945.5759687
+result:
+latency:16.34485673904419
+flink.avg.cpu:4.703703703703703
+kafka.avg.cpu:34.54385964912281

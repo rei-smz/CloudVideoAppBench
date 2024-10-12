@@ -1,0 +1,2900 @@
+waiting for 0.2 second sample...
+
+### RECORD    1 >>> node-2 <<< (1719984524.201) (Wed Jul  3 00:28:44 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1210   1950     0   978     1   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     5    0    0    0    0    0     0     0     0   95
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    4    0    0    0     0     0     0   95
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403428K   86884K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189228K  116964K    1799M    1312M        0    2191M 100.00
+
+### RECORD    2 >>> node-2 <<< (1719984524.401) (Wed Jul  3 00:28:44 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1050   1930     4   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403428K   86884K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189228K  116964K    1799M    1312M        0    2191M 100.00
+
+### RECORD    3 >>> node-2 <<< (1719984524.601) (Wed Jul  3 00:28:44 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1390   2650     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     5    0    0    0    0    0     0     0     0   95
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    4    0    0    0     0     0     0   90
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    5    0    0    0     0     0     0   95
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     4    0    0    0    0    0     0     0     0   95
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    4 >>> node-2 <<< (1719984524.801) (Wed Jul  3 00:28:44 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1190   2310     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    5 >>> node-2 <<< (1719984525.001) (Wed Jul  3 00:28:45 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1110   2010     0   978     2   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    6 >>> node-2 <<< (1719984525.201) (Wed Jul  3 00:28:45 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32   975   1890     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    7 >>> node-2 <<< (1719984525.401) (Wed Jul  3 00:28:45 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1090   1990     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     4    0    0    0    0    0     0     0     0   95
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    8 >>> node-2 <<< (1719984525.601) (Wed Jul  3 00:28:45 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1120   2235     4   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    4    0    0    0     0     0     0   95
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5430M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD    9 >>> node-2 <<< (1719984525.801) (Wed Jul  3 00:28:45 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1180   2350     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   10 >>> node-2 <<< (1719984526.001) (Wed Jul  3 00:28:46 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1010   1930     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    4    0    0    0     0     0     0   95
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   11 >>> node-2 <<< (1719984526.201) (Wed Jul  3 00:28:46 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1235   1990     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   12 >>> node-2 <<< (1719984526.401) (Wed Jul  3 00:28:46 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1150   2000     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     4    0    0    0    0    0     0     0     0   95
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   13 >>> node-2 <<< (1719984526.601) (Wed Jul  3 00:28:46 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1360   2595     0   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    5    0    0    0     0     0     0   95
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9473M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   14 >>> node-2 <<< (1719984526.801) (Wed Jul  3 00:28:46 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1250   2305     4   978     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   15 >>> node-2 <<< (1719984527.001) (Wed Jul  3 00:28:47 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1110   2060     0   978     1   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     4    0    0    0    0    0     0     0     0   95
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    4    0    0    0     0     0     0   95
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   16 >>> node-2 <<< (1719984527.201) (Wed Jul  3 00:28:47 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1110   2170     0   978     1   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     4    0    0    0    0    0     0     0     0   95
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86888K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26806M  189420K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   17 >>> node-2 <<< (1719984527.401) (Wed Jul  3 00:28:47 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     2     0     0     0     0     0     0     0     0    97    32  4450   5245     9   980     5   0.12  0.16  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0    5    0    0    0     0     0     0   90
+      5    15    0    0    0    0    0     0     0     0   85
+      6     0    0    0    0    0    0     0     0     0  100
+      7     5    0    0    0    0    0     0     0     0   95
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    4    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21    25    0    0    0    0    0     0     0     0   75
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26805M  189304K  117008K    1799M    1312M        0    2191M 100.00
+
+### RECORD   18 >>> node-2 <<< (1719984527.601) (Wed Jul  3 00:28:47 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  7765    10K     9   980     3   0.12  0.16  0.14    5    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     4    0    0    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2     5    0    0    0    0    0     0     0     0   95
+      3     0    0    0    0    0    0     0     0     0  100
+      4     9    0    9    0    0    0     0     0     0   80
+      5    15    0    0    0    0    0     0     0     0   84
+      6     0    0    0    0    0    0     0     0     0  100
+      7     5    0   10    0    0    0     0     0     0   84
+      8     0    0    4    0    0    0     0     0     0   95
+      9     5    0    0    0    0    0     0     0     0   95
+     10     5    0    0    0    0    0     0     0     0   95
+     11     4    0    0    0    0    0     0     0     0   95
+     12     4    0    0    0    0    0     0     0     0   95
+     13     4    0    4    0    0    0     0     0     0   90
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21    57    0    0    0    0    0     0     0     0   42
+     22    10    0    5    0    0    0     0     0     0   85
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5432M   26804M  189304K  117008K    1800M    1312M        0    2191M 100.00
+
+### RECORD   19 >>> node-2 <<< (1719984527.801) (Wed Jul  3 00:28:47 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  7465   9420     0   980     4   0.12  0.16  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    68    0    0    0    0    0     0     0     0   31
+      3     0    0    0    0    0    0     0     0     0  100
+      4    11    0    5    0    0    0     0     0     0   83
+      5    15    0    0    0    0    0     0     0     0   85
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   10    0    0    0     0     0     0   80
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    15    0   10    0    0    0     0     0     0   75
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5433M   26804M  189304K  117008K    1800M    1312M        0    2191M 100.00
+
+### RECORD   20 >>> node-2 <<< (1719984528.001) (Wed Jul  3 00:28:48 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  7490   9155     0   980     4   0.12  0.16  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    70    0    0    0    0    0     0     0     0   30
+      3     0    0    0    0    0    0     0     0     0  100
+      4    14    0    9    0    0    0     0     0     0   76
+      5    15    0    0    0    0    0     0     0     0   85
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   10    0    0    0     0     0     0   80
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    5    0    0    0     0     0     0   90
+     11     0    0    5    0    0    0     0     0     0   95
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    5    0    0    0     0     0     0   95
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    0    0    0    0     0     0     0   89
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5433M   26803M  189304K  117008K    1800M    1312M        0    2191M 100.00
+
+### RECORD   21 >>> node-2 <<< (1719984528.201) (Wed Jul  3 00:28:48 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  7060   8685     4   980     0   0.12  0.16  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    65    0    0    0    0    0     0     0     0   35
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   10    0    0    0     0     0     0   78
+      5    10    0    0    0    0    0     0     0     0   90
+      6     0    0    0    0    0    0     0     0     0  100
+      7     9    0   14    0    0    0     0     0     0   76
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     9    0    0    0    0    0     0     0     0   90
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    0    0    0    0     0     0     0   90
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     9    0   14    0    0    0     0     0     0   76
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5431M   26805M  189304K  117008K    1798M    1312M        0    2191M 100.00
+
+### RECORD   22 >>> node-2 <<< (1719984528.401) (Wed Jul  3 00:28:48 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  6900   8585     0   980     0   0.12  0.16  0.14    0    1
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    4    0    0    4     0     0     0   90
+      1     0    0    0    0    0    0     0     0     0  100
+      2    60    0    0    0    0    0     0     0     0   40
+      3     0    0    0    0    0    0     0     0     0  100
+      4    14    0    9    0    0    0     0     0     0   76
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   10    0    0    0     0     0     0   80
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11    20    0    0    0    0    0     0     0     0   80
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    5    0    0    0     0     0     0   89
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    5    0    0     0     0     0   95
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     4    0    0    0    0    0     0     0     0   95
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9472M   22634M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5432M   26804M  189304K  117008K    1800M    1312M        0    2191M 100.00
+
+### RECORD   23 >>> node-2 <<< (1719984528.601) (Wed Jul  3 00:28:48 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  8990    10K     0   980     2   0.12  0.16  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     5    0    0    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2    57    0    4    0    0    0     0     0     0   38
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   10    0    0    0     0     0     0   80
+      5     4    0    0    0    0    0     0     0     0   95
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0    5    0    0    0     0     0     0   85
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     4    0    0    0    0    0     0     0     0   95
+     12    20    0    0    0    0    0     0     0     0   80
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     5    0    0    0    0    0     0     0     0   95
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    11    0    0    0    0    0     0     0     0   88
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9470M   22637M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5434M   26802M  189304K  117008K    1801M    1312M        0    2191M 100.00
+
+### RECORD   24 >>> node-2 <<< (1719984528.801) (Wed Jul  3 00:28:48 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    93    32  8160   9965     0   980     0   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    71    0    0    0    0    4     0     0     0   23
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   15    0    0    0     0     0     0   75
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     9    0   19    0    0    0     0     0     0   71
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12    20    0    0    0    0    0     0     0     0   80
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    14    0    9    0    0    0     0     0     0   76
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9470M   22637M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5435M   26802M  189304K  117008K    1801M    1312M        0    2191M 100.00
+
+### RECORD   25 >>> node-2 <<< (1719984529.001) (Wed Jul  3 00:28:49 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  7980   9370     0   980     2   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    68    0    0    0    0    0     0     0     0   31
+      3     0    0    0    0    0    0     0     0     0  100
+      4     9    0   14    0    0    0     0     0     0   76
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   10    0    0    0     0     0     0   80
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   94
+     11     0    0    0    0    0    0     0     0     0  100
+     12    15    0    0    0    0    0     0     0     0   84
+     13     4    0    0    0    0    0     0     0     0   95
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    14    0    4    0    0    0     0     0     0   80
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    15    0   10    0    0    0     0     0     0   75
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9467M   22640M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5439M   26797M  189304K  117008K    1802M    1312M        0    2191M 100.00
+
+### RECORD   26 >>> node-2 <<< (1719984529.201) (Wed Jul  3 00:28:49 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    93    32  7815   9760     0   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    75    0    0    0    0    0     0     0     0   25
+      3     0    0    0    0    0    0     0     0     0  100
+      4    15    0   10    0    0    0     0     0     0   75
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   15    0    0    0     0     0     0   75
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12    20    0    0    0    0    0     0     0     0   80
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    13    0   13    0    0    0     0     0     0   72
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9465M   22642M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5442M   26794M  189304K  117008K    1802M    1312M        0    2191M 100.00
+
+### RECORD   27 >>> node-2 <<< (1719984529.401) (Wed Jul  3 00:28:49 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  7520   9145     4   980     5   0.19  0.18  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     4    0    0    0    0    0     0     0     0   95
+      2    26    0    0    0    0    0     0     0     0   73
+      3     4    0    0    0    0    0     0     0     0   95
+      4     9    0   14    0    0    0     0     0     0   76
+      5     0    0    5    0    0    0     0     0     0   95
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0   10    0    0    0     0     0     0   80
+      8    45    0    5    0    0    0     0     0     0   50
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     5    0    0    0    0    0     0     0     0   95
+     12    15    0    0    0    0    0     0     0     0   85
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    4    0    0    0     0     0     0   95
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     5    0   11    0    0    0     0     0     0   83
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9463M   22643M  403556K   86916K    2332M    1054M        0    4177M 100.00
+     1   32237M    5440M   26796M  189304K  117008K    1798M    1312M        0    2191M 100.00
+
+### RECORD   28 >>> node-2 <<< (1719984529.601) (Wed Jul  3 00:28:49 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     0     0     0     0     0     0     0    94    32  6320    15K     0   980     4   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    5    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0   10    0    0    0     0     0     0   84
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     5    0   10    0    0    0     0     0     0   85
+      8    35    0    0    0    0    0     0     0     0   65
+      9     0    0    0    0    0    0     0     0     0  100
+     10    10    0    0    0    0    0     0     0     0   89
+     11     5    0    0    0    0    0     0     0     0   95
+     12     5    0    0    0    0    0     0     0     0   94
+     13     0    0    0    0    0    0     0     0     0  100
+     14     5    0    0    0    0    0     0     0     0   95
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21    38    0    0    0    0    0     0     0     0   61
+     22    14    0    4    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9460M   22646M  403556K   86916K    2320M    1042M        0    4177M 100.00
+     1   32237M    5445M   26791M  189304K  117008K    1814M    1324M        0    2191M 100.00
+
+### RECORD   29 >>> node-2 <<< (1719984529.801) (Wed Jul  3 00:28:49 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     5     0     0     0     0     0     0     0     0    93    32   10K   9925     9   980     1   0.19  0.18  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    10    0    0    0    0    0     0     0     0   90
+      1     4    0    4    0    0    0     0     0     0   90
+      2     5    0    0    0    0    0     0     0     0   95
+      3     0    0    5    0    0    0     0     0     0   95
+      4     9    0    0    0    0    0     0     0     0   90
+      5     0    0    0    0    0    0     0     0     0  100
+      6     5    0    0    0    0    0     0     0     0   95
+      7     5    0    0    0    0    0     0     0     0   95
+      8    10    0    0    0    0    0     0     0     0   90
+      9     5    0    0    0    0    0     0     0     0   95
+     10     9    0    0    0    0    0     0     0     0   90
+     11    25    0    5    0    0    0     0     0     0   70
+     12    23    0    4    0    0    0     0     0     0   71
+     13     4    0    4    0    0    0     0     0     0   90
+     14     5    0    0    0    0    0     0     0     0   95
+     15    10    0    0    0    0    0     0     0     0   90
+     16     5    0    0    0    0    0     0     0     0   95
+     17     5    0    0    0    0    0     0     0     0   95
+     18     5    0    0    0    0    0     0     0     0   95
+     19    15    0    5    0    0    0     0     0     0   80
+     20     5    0    0    0    0    0     0     0     0   95
+     21     5    0    0    0    0    0     0     0     0   95
+     22     0    0    5    0    0    0     0     0     0   94
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     5    0    0    0    0    0     0     0     0   95
+     27     5    0    0    0    0    0     0     0     0   95
+     28     5    0    0    0    0    0     0     0     0   95
+     29     5    0    0    0    0    0     0     0     0   94
+     30     4    0    4    0    0    0     0     0     0   90
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9461M   22645M  403556K   86916K    2320M    1042M        0    4177M 100.00
+     1   32237M    5445M   26791M  189304K  117008K    1814M    1324M        0    2191M 100.00
+
+### RECORD   30 >>> node-2 <<< (1719984530.001) (Wed Jul  3 00:28:50 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     5     0     2     0     0     0     0     0     0    91    32  7200   9550     0   980     1   0.19  0.18  0.14    4    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    20    0   20    0    0    0     0     0     0   60
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3    18    0   22    0    0    0     0     0     0   59
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     5    0    0    0    0    0     0     0     0   95
+     10     0    0    0    0    0    0     0     0     0  100
+     11   100    0    0    0    0    0     0     0     0    0
+     12     9    0    0    0    0    0     0     0     0   90
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     9    0    4    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    18    0   18    0    0    0     0     0     0   63
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9457M   22649M  403556K   86916K    2320M    1042M        0    4177M 100.00
+     1   32237M    5446M   26790M  189304K  117008K    1812M    1324M        0    2191M 100.00
+
+### RECORD   31 >>> node-2 <<< (1719984530.201) (Wed Jul  3 00:28:50 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     0     0     0     0     0     0     0    95    32  8210   6975     0   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     9    0    9    0    0    0     0     0     0   80
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3    10    0    5    0    0    0     0     0     0   84
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11    65    0    0    0    0    0     0     0     0   35
+     12    10    0    0    0    0    0     0     0     0   89
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9459M   22648M  403556K   86916K    2320M    1042M        0    4177M 100.00
+     1   32237M    5445M   26792M  189304K  117008K    1812M    1324M        0    2191M 100.00
+
+### RECORD   32 >>> node-2 <<< (1719984530.401) (Wed Jul  3 00:28:50 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     0     0     0     0     0     0     0    95    32  5460   6510     0   980     2   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    10    0    5    0    0    0     0     0     0   85
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    4    0    0    0     0     0     0   95
+      3    10    0   10    0    0    0     0     0     0   80
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    4    0    0    0     0     0     0   90
+     11    60    0    5    0    0    0     0     0     0   35
+     12    10    0    0    0    0    0     0     0     0   89
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     9    0    4    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     5    0    5    0    0    0     0     0     0   89
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9457M   22650M  403556K   86916K    2320M    1042M        0    4177M 100.00
+     1   32237M    5447M   26790M  189304K  117008K    1812M    1324M        0    2191M 100.00
+
+### RECORD   33 >>> node-2 <<< (1719984530.601) (Wed Jul  3 00:28:50 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    95    32  5400   6550     4   980     1   0.19  0.18  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    10    0   10    0    0    0     0     0     0   80
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     9    0    9    0    0    0     0     0     0   80
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11    50    0    0    0    0    0     0     0     0   50
+     12     5    0    0    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     4    0    0    0    0    0     0     0     0   95
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     9    0    9    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9457M   22650M  403556K   86916K    2316M    1038M        0    4177M 100.00
+     1   32237M    5447M   26789M  189304K  117008K    1816M    1328M        0    2191M 100.00
+
+### RECORD   34 >>> node-2 <<< (1719984530.801) (Wed Jul  3 00:28:50 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  5725   8290     0   980     0   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    57    0    0    0    0    0     0     0     0   42
+      1     4    0    4    0    0    0     0     0     0   90
+      2    10    0    5    0    0    0     0     0     0   85
+      3    15    0   10    0    0    0     0     0     0   75
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11    14    0    0    0    0    0     0     0     0   85
+     12     0    0    0    0    0    0     0     0     0  100
+     13    14    0    0    0    0    0     0     0     0   85
+     14     4    0    0    0    0    0     0     0     0   95
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    0    0    0    5     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     5    0   15    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9457M   22650M  403556K   86916K    2316M    1038M        0    4177M 100.00
+     1   32237M    5447M   26789M  189304K  117008K    1816M    1328M        0    2191M 100.00
+
+### RECORD   35 >>> node-2 <<< (1719984531.001) (Wed Jul  3 00:28:51 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     2     0     1     0     0     0     0     0     0    95    32  5520   6870     0   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    40    0    0    0    0    0     0     0     0   60
+      1    10    0    0    0    0    0     0     0     0   90
+      2     5    0   10    0    0    0     0     0     0   85
+      3     5    0   10    0    0    0     0     0     0   85
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    5    0    0    0     0     0     0   95
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     5    0    0    0    0    0     0     0     0   94
+     14     5    0    0    0    0    0     0     0     0   94
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    5    0    0    0     0     0     0   90
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0    5    0    0    0     0     0     0   85
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9455M   22652M  403556K   86916K    2316M    1038M        0    4177M 100.00
+     1   32237M    5452M   26785M  189304K  117008K    1819M    1328M        0    2191M 100.00
+
+### RECORD   36 >>> node-2 <<< (1719984531.201) (Wed Jul  3 00:28:51 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    93    32  7890   9400     0   980     2   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    66    0    4    0    0    0     0     0     0   28
+      1     0    0    0    0    0    0     0     0     0  100
+      2    15    0   10    0    0    0     0     0     0   73
+      3    10    0   15    0    0    0     0     0     0   73
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     5    0    0    0    0    0     0     0     0   95
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14    19    0    4    0    0    0     0     0     0   76
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   84
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     9    0   14    0    0    0     0     0     0   76
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9435M   22672M  403556K   86916K    2316M    1038M        0    4177M 100.00
+     1   32237M    5470M   26767M  189304K  117008K    1817M    1328M        0    2191M 100.00
+
+### RECORD   37 >>> node-2 <<< (1719984531.401) (Wed Jul  3 00:28:51 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  7715   9140     0   980     2   0.19  0.18  0.14    5    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    73    0    0    0    0    0     0     0     0   26
+      1     0    0    0    0    0    0     0     0     0  100
+      2    10    0   15    0    0    0     0     0     0   75
+      3    14    0   14    0    0    0     0     0     0   71
+      4     0    0    0    0    0    0     0     0     0  100
+      5     5    0    0    0    0    0     0     0     0   95
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14    20    0    5    0    0    0     0     0     0   75
+     15     0    0    5    0    0    0     0     0     0   95
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   78
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9411M   22696M  403556K   86916K    2316M    1038M        0    4177M 100.00
+     1   32237M    5494M   26742M  189304K  117008K    1817M    1328M        0    2191M 100.00
+
+### RECORD   38 >>> node-2 <<< (1719984531.601) (Wed Jul  3 00:28:51 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     0     0     0     0     0     0     0    94    32  5690    12K     0   980     3   0.19  0.18  0.14    3    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    40    0    0    0    0    0     0     0     0   60
+      1     0    0    0    0    0    0     0     0     0  100
+      2     9    0    4    0    0    0     0     0     0   85
+      3    10    0    0    0    0    0     0     0     0   90
+      4     4    0    4    0    0    0     0     0     0   90
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     5    0    0    0    0    0     0     0     0   95
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    4    0    0    0     0     0     0   95
+     12     5    0    0    0    0    0     0     0     0   95
+     13     5    0    0    0    0    0     0     0     0   95
+     14    10    0    0    0    0    0     0     0     0   89
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     9    0    4    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21    40    0    0    0    0    0     0     0     0   60
+     22     5    0    5    0    0    0     0     0     0   90
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     4    0    0    0    0    0     0     0     0   95
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9398M   22708M  403556K   86916K    2260M     982M        0    4177M 100.00
+     1   32237M    5507M   26730M  189304K  117008K    1873M    1384M        0    2191M 100.00
+
+### RECORD   39 >>> node-2 <<< (1719984531.801) (Wed Jul  3 00:28:51 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  8155    12K    14   980     4   0.19  0.18  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    57    0    0    0    0    0     0     0     0   42
+      1     0    0    0    0    0    0     0     0     0  100
+      2    10    0   10    0    0    0     0     0     0   80
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0    5    0    0    0     0     0     0   84
+      5     0    0    0    0    0    0     0     0     0  100
+      6     4    0    0    0    0    0     0     0     0   95
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    5    0    0    0     0     0     0   95
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     5    0    0    0    0    0     0     0     0   95
+     12     0    0    5    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15    25    0    0    0    0    0     0     0     0   75
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    16    0    0    0    0    0     0     0     0   83
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    4    0    0    0     0     0     0   95
+     22     9    0    9    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9374M   22732M  403556K   86916K    2260M     982M        0    4177M 100.00
+     1   32237M    5532M   26704M  189304K  117008K    1874M    1384M        0    2191M 100.00
+
+### RECORD   40 >>> node-2 <<< (1719984532.001) (Wed Jul  3 00:28:52 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     5     0     1     0     0     0     0     0     0    93    32  8240    10K     0   980     2   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0    55    0    0    0    0    0     0     0     0   45
+      1     0    0    0    0    0    0     0     0     0  100
+      2    15    0   15    0    0    0     0     0     0   70
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   20    0    0    0     0     0     0   70
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8    42    0    0    0    0    0     0     0     0   57
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15    10    0    5    0    0    0     0     0     0   84
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    5    0    0    0     0     0     0   89
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   15    0    0    0     0     0     0   73
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9346M   22760M  403556K   86916K    2260M     982M        0    4177M 100.00
+     1   32237M    5560M   26676M  189304K  117008K    1874M    1384M        0    2191M 100.00
+
+### RECORD   41 >>> node-2 <<< (1719984532.201) (Wed Jul  3 00:28:52 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  7215   9025     0   980     2   0.19  0.18  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    10    0   10    0    0    0     0     0     0   78
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   10    0    0    0     0     0     0   80
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8    65    0    0    0    0    0     0     0     0   35
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     4    0    0    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    5    0    0    0     0     0     0   95
+     15    15    0    0    0    0    0     0     0     0   85
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   85
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     4    0    0    0    0    0     0     0     0   95
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9342M   22764M  403556K   86916K    2260M     982M        0    4177M 100.00
+     1   32237M    5563M   26674M  189304K  117008K    1873M    1384M        0    2191M 100.00
+
+### RECORD   42 >>> node-2 <<< (1719984532.401) (Wed Jul  3 00:28:52 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  8145    10K     0   980     1   0.19  0.18  0.14    2    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2    15    0   10    0    0    0     0     0     0   75
+      3     0    0    0    0    0    0     0     0     0  100
+      4    10    0   15    0    0    0     0     0     0   75
+      5    61    0    0    0    0    0     0     0     0   38
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8    10    0    0    0    0    0     0     0     0   89
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     4    0    0    0    0    0     0     0     0   95
+     15    10    0    5    0    0    0     0     0     0   84
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    0    0    0    0     0     0     0   89
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   78
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9344M   22762M  403556K   86916K    2260M     982M        0    4177M 100.00
+     1   32237M    5564M   26673M  189304K  117008K    1874M    1384M        0    2191M 100.00
+
+### RECORD   43 >>> node-2 <<< (1719984532.601) (Wed Jul  3 00:28:52 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     4     0     1     0     0     0     0     0     0    94    32  6190   7805     0   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     4    0    0    0    0    0     0     0     0   95
+      2     5    0    5    0    0    0     0     0     0   89
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0   10    0    0    0     0     0     0   84
+      5    55    0    0    0    0    0     0     0     0   45
+      6     0    0    0    0    0    0     0     0     0  100
+      7     9    0    4    0    0    0     0     0     0   85
+      8     4    0    0    0    0    0     0     0     0   95
+      9     0    0    4    0    0    0     0     0     0   95
+     10     4    0    0    0    0    0     0     0     0   95
+     11     4    0    0    0    0    0     0     0     0   95
+     12    35    0    0    0    0    0     0     0     0   65
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15    19    0    0    0    0    0     0     0     0   80
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     9    0    9    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9340M   22766M  403556K   86916K    2201M  946176K        0    4177M 100.00
+     1   32237M    5566M   26671M  189304K  117008K    1932M    1442M        0    2191M 100.00
+
+### RECORD   44 >>> node-2 <<< (1719984532.801) (Wed Jul  3 00:28:52 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     0     0     0     0     0     0     0    95    32  5575   7405     0   980     2   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4    14    0    9    0    0    0     0     0     0   76
+      5    47    0    4    0    0    0     0     0     0   47
+      6     0    0    0    0    0    0     0     0     0  100
+      7    10    0    5    0    0    0     0     0     0   85
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     5    0    0    0    0    0     0     0     0   94
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    5    0    0    0     0     0     0   90
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    15    0    5    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9342M   22764M  403556K   86916K    2201M  946176K        0    4177M 100.00
+     1   32237M    5564M   26672M  189304K  117008K    1933M    1442M        0    2191M 100.00
+
+### RECORD   45 >>> node-2 <<< (1719984533.001) (Wed Jul  3 00:28:53 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    95    32  6735   8405     0   980     1   0.19  0.18  0.14    5    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     5    0    0    0    0    0     0     0     0   94
+      2     5    0    0    0    0    0     0     0     0   95
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0   10    0    0    0     0     0     0   84
+      5    55    0    0    0    0    0     0     0     0   45
+      6     0    0    4    0    0    0     0     0     0   95
+      7    10    0    5    0    0    0     0     0     0   84
+      8     4    0    0    0    0    0     0     0     0   95
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     5    0    0    0    0    0     0     0     0   95
+     13     4    0    0    0    0    0     0     0     0   95
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19    10    0    5    0    0    0     0     0     0   84
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0    5    0    0    0     0     0     0   85
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9342M   22764M  403556K   86916K    2201M  946176K        0    4177M 100.00
+     1   32237M    5565M   26671M  189304K  117008K    1933M    1442M        0    2191M 100.00
+
+### RECORD   46 >>> node-2 <<< (1719984533.201) (Wed Jul  3 00:28:53 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     3     0     1     0     0     0     0     0     0    94    32  6430   7725     4   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     9    0    4    0    0    0     0     0     0   85
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0    0    0    0    0     0     0     0   95
+      5    57    0    0    0    0    0     0     0     0   42
+      6     0    0    0    0    0    0     0     0     0  100
+      7     5    0   10    0    0    0     0     0     0   84
+      8    10    0   15    0    0    0     0     0     0   73
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   94
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22    10    0   10    0    0    0     0     0     0   80
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9348M   22758M  403556K   86916K    2201M  946176K        0    4177M 100.00
+     1   32237M    5559M   26677M  189304K  117008K    1934M    1442M        0    2191M 100.00
+
+### RECORD   47 >>> node-2 <<< (1719984533.401) (Wed Jul  3 00:28:53 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     1     0     0     0     0     0     0     0     0    97    32  2740   4100     0   980     1   0.19  0.18  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    5    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    4    0    0    0     0     0     0   95
+      4     0    0    0    0    0    0     0     0     0  100
+      5    30    0    0    0    0    0     0     0     0   70
+      6     0    0    0    0    0    0     0     0     0  100
+      7     4    0    9    0    0    0     0     0     0   86
+      8    10    0   10    0    0    0     0     0     0   80
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     5    0    0    0    0    0     0     0     0   95
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     5    0    5    0    0    0     0     0     0   90
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22756M  403556K   86916K    2201M  946176K        0    4177M 100.00
+     1   32237M    5557M   26679M  189304K  117008K    1934M    1442M        0    2191M 100.00
+
+### RECORD   48 >>> node-2 <<< (1719984533.601) (Wed Jul  3 00:28:53 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     1     0     0     1     0     0     0     0     0    96    32  2560   7740     4   980     0   0.19  0.18  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0   40    0    0     0     0     0   60
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     5    0    0    0    0    0     0     0     0   94
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     4    0    0    0    0    0     0     0     0   95
+      9     4    0    0    0    0    0     0     0     0   95
+     10     5    0    0    0    0    0     0     0     0   95
+     11     4    0    0    0    0    0     0     0     0   95
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    4    0    0    0     0     0     0   95
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21    30    0    0    0    0    0     0     0     0   70
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2207M  952320K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1924M    1436M        0    2191M 100.00
+
+### RECORD   49 >>> node-2 <<< (1719984533.801) (Wed Jul  3 00:28:53 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1390   2705     4   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     4    0    0    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    4    0    0    0     0     0     0   95
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   50 >>> node-2 <<< (1719984534.001) (Wed Jul  3 00:28:54 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1055   2090     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    4    0    0    0     0     0     0   95
+      5     0    0    0    0    0    0     0     0     0  100
+      6     4    0    0    0    0    0     0     0     0   95
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    4    0    0    0     0     0     0   90
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   51 >>> node-2 <<< (1719984534.201) (Wed Jul  3 00:28:54 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1180   1950     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   52 >>> node-2 <<< (1719984534.401) (Wed Jul  3 00:28:54 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1095   1990     4   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   53 >>> node-2 <<< (1719984534.601) (Wed Jul  3 00:28:54 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1370   2505     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    4    0    0    0     0     0     0   95
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   54 >>> node-2 <<< (1719984534.801) (Wed Jul  3 00:28:54 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1190   2300     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   55 >>> node-2 <<< (1719984535.001) (Wed Jul  3 00:28:55 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1150   2090     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     5    0    0    0    0    0     0     0     0   95
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    4    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   56 >>> node-2 <<< (1719984535.201) (Wed Jul  3 00:28:55 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1000   1850     0   980     0   0.17  0.17  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    4    0    0    0     0     0     0   95
+     12     4    0    0    0    0    0     0     0     0   95
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   57 >>> node-2 <<< (1719984535.401) (Wed Jul  3 00:28:55 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1110   2055     0   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     4    0    0    0    0    0     0     0     0   95
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117008K    1922M    1434M        0    2191M 100.00
+
+### RECORD   58 >>> node-2 <<< (1719984535.601) (Wed Jul  3 00:28:55 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     1     0     0     0     0     0     0     0     0    98    32  1775   4930     4   980     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     4    0    0    0    0    0     0     0     0   95
+      6    30    0    0    0    0    0     0     0     0   70
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     4    0    0    0    0    0     0     0     0   95
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     4    0    0    0    0    0     0     0     0   95
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+
+### RECORD   59 >>> node-2 <<< (1719984535.801) (Wed Jul  3 00:28:55 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1360   2540     0   979     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    4    0    0    0     0     0     0   95
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+
+### RECORD   60 >>> node-2 <<< (1719984536.001) (Wed Jul  3 00:28:56 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1030   2095     0   979     0   0.17  0.17  0.14    1    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    4    0    0    0     0     0     0   95
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     4    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+
+### RECORD   61 >>> node-2 <<< (1719984536.201) (Wed Jul  3 00:28:56 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0   100    32  1130   1820     0   979     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     5    0    0    0    0    0     0     0     0   95
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+
+### RECORD   62 >>> node-2 <<< (1719984536.401) (Wed Jul  3 00:28:56 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  2100   2220     0   979     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    5    0    0    0     0     0     0   95
+      1     0    0    0    0    0    0     0     0     0  100
+      2     0    0    0    0    0    0     0     0     0  100
+      3     0    0    0    0    0    0     0     0     0  100
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     0    0    0    0    0    0     0     0     0  100
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     0    0    0    0    0    0     0     0     0  100
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+
+### RECORD   63 >>> node-2 <<< (1719984536.601) (Wed Jul  3 00:28:56 2024) ###
+
+# CPU[HYPER] SUMMARY (INTR, CTXSW & PROC /sec)
+# User  Nice   Sys  Wait   IRQ  Soft Steal Guest NiceG  Idle  CPUs  Intr  Ctxsw  Proc  RunQ   Run   Avg1  Avg5 Avg15 RunT BlkT
+     0     0     0     0     0     0     0     0     0    99    32  1325   2380     0   979     0   0.17  0.17  0.14    0    0
+
+# SINGLE CPU[HYPER] STATISTICS
+#   Cpu  User Nice  Sys Wait IRQ  Soft Steal Guest NiceG Idle
+      0     0    0    0    0    0    0     0     0     0  100
+      1     4    0    0    0    0    0     0     0     0   95
+      2     0    0    0    0    0    0     0     0     0  100
+      3     4    0    0    0    0    0     0     0     0   95
+      4     0    0    0    0    0    0     0     0     0  100
+      5     0    0    0    0    0    0     0     0     0  100
+      6     0    0    0    0    0    0     0     0     0  100
+      7     0    0    0    0    0    0     0     0     0  100
+      8     0    0    0    0    0    0     0     0     0  100
+      9     0    0    0    0    0    0     0     0     0  100
+     10     0    0    0    0    0    0     0     0     0  100
+     11     5    0    0    0    0    0     0     0     0   95
+     12     0    0    0    0    0    0     0     0     0  100
+     13     0    0    0    0    0    0     0     0     0  100
+     14     0    0    0    0    0    0     0     0     0  100
+     15     4    0    4    0    0    0     0     0     0   90
+     16     0    0    0    0    0    0     0     0     0  100
+     17     0    0    0    0    0    0     0     0     0  100
+     18     0    0    0    0    0    0     0     0     0  100
+     19     0    0    0    0    0    0     0     0     0  100
+     20     0    0    0    0    0    0     0     0     0  100
+     21     0    0    0    0    0    0     0     0     0  100
+     22     0    0    0    0    0    0     0     0     0  100
+     23     0    0    0    0    0    0     0     0     0  100
+     24     0    0    0    0    0    0     0     0     0  100
+     25     0    0    0    0    0    0     0     0     0  100
+     26     0    0    0    0    0    0     0     0     0  100
+     27     0    0    0    0    0    0     0     0     0  100
+     28     0    0    0    0    0    0     0     0     0  100
+     29     0    0    0    0    0    0     0     0     0  100
+     30     0    0    0    0    0    0     0     0     0  100
+     31     0    0    0    0    0    0     0     0     0  100
+
+# MEMORY STATISTICS 
+# Node    Total     Used     Free     Slab   Mapped     Anon    AnonH   Locked    Inact HitPct
+     0   32107M    9350M   22757M  403556K   86916K    2209M  954368K        0    4177M 100.00
+     1   32237M    5553M   26683M  189304K  117012K    1922M    1434M        0    2191M 100.00
+Ouch!
