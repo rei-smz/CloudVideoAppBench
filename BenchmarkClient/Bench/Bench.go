@@ -136,7 +136,7 @@ func (cb *ClientBench) saveResults() {
 	}
 
 	errorRate := float64(errorRequests) / float64(totalRequests)
-	avgRTT := float64(totalRTT) / (float64(totalRequests - errorRequests))
+	avgRTT := float64(totalRTT) / (float64(totalRequests))
 	// Save summary
 	file.WriteString("===============\n")
 	file.WriteString(fmt.Sprintf("Total requests: %v, error rate: %v, average RTT: %v",
