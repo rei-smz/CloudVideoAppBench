@@ -78,7 +78,7 @@ func (cb *ClientBench) Bench() {
 // request sends user requests and handles responses every benchConfig.UserWaiting seconds.
 func (cb *ClientBench) request(httpController HTTPController.HTTPController, stopCh <-chan struct{}, wg *sync.WaitGroup) {
 	defer wg.Done()
-	//time.Sleep(time.Duration(rand.Intn(5)) * time.Second)
+	time.Sleep(time.Duration(rand.Intn(5)) * time.Second)
 
 	for {
 		select {
@@ -93,6 +93,14 @@ func (cb *ClientBench) request(httpController HTTPController.HTTPController, sto
 
 			startT := time.Now()
 			response := httpController.Post(cb.benchConfig.URL, reqBody)
+			if response != nil && response["status_code"] == 200 {
+				key := response["key"].(string)
+				reqBody["args"] = make(map[string]string)
+				reqBody["args"].(map[string]string)["key"] = key
+				for response != nil && response["status_code"] == 200 && response["result"].(string) == "running" {
+					response = httpController.Post(cb.benchConfig.URL, reqBody)
+				}
+			}
 			timeCost := time.Since(startT)
 			// Handle response
 			if response == nil {
@@ -129,7 +137,7 @@ func (cb *ClientBench) saveResults() {
 	for _, res := range cb.results {
 		ws := fmt.Sprintf("%v\t%v\t%v\n", res["time_stamp"], res["status_code"], res["rtt"])
 		file.WriteString(ws)
-		if res["status_code"] != 200 {
+		if res["status_code"] != 200 || res["result"] == "error" {
 			errorRequests++
 		}
 		totalRTT += res["rtt"].(int64)
