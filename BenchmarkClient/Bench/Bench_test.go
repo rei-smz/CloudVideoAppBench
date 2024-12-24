@@ -9,8 +9,8 @@ import (
 	"testing"
 )
 
-func NewTestClient(client RPCClient.RPCClient) *ClientBench {
-	return &ClientBench{
+func NewTestClient(client RPCClient.RPCClient) *LongTermBenchUser {
+	return &LongTermBenchUser{
 		benchConfig: &BenchConfig{
 			NumUser:     1,
 			Duration:    45,
