@@ -29,7 +29,7 @@ type ReqData struct {
 	ReqType string            `json:"type" bson:"type"`
 	Path    string            `json:"path" bson:"path"`
 	Object  string            `json:"object" bson:"object"`
-	Args    map[string]string `bson:"args"`
+	Args    map[string]string `json: "args" bson:"args"`
 }
 
 type ReqInfo struct {
@@ -37,7 +37,7 @@ type ReqInfo struct {
 	StartTime int64   `bson:"start_time" json:"start_time"`
 	EndTime   int64   `bson:"end_time" json:"end_time"`
 	Retry     int     `bson:"retry" json:"retry"`
-	Data      ReqData `bson:"req_data"`
+	Data      ReqData `bson:"req_data" json: "data"`
 }
 
 var bucketName = os.Getenv("BUCKET_NAME")
