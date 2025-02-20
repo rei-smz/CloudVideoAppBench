@@ -178,7 +178,7 @@ func handleRequest(w http.ResponseWriter, reqData ReqData, coll *mongo.Collectio
 		id = result.InsertedID.(primitive.ObjectID)
 		w.Header().Set("Content-Type", "application/json")
 		w.WriteHeader(http.StatusOK)
-		w.Write([]byte(fmt.Sprintf("{\"key\": \"%v\"}", infoID.Hex())))
+		w.Write([]byte(fmt.Sprintf("{\"key\": \"%v\"}", id.Hex())))
 	}
 
 	go func() {
