@@ -3,6 +3,7 @@ package HTTPController
 import (
 	"bytes"
 	"encoding/json"
+	"io"
 	"log"
 	"net/http"
 )
@@ -41,8 +42,12 @@ func (c *httpController) Post(url string, body map[string]any) map[string]any {
 	}
 	defer resp.Body.Close()
 
-	var respBody []byte
-	resp.Body.Read(respBody)
+	respBody, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println("Error reading response body:", err)
+		return nil
+	}
+	//log.Println(string(respBody))
 	ret := make(map[string]any)
 	json.Unmarshal(respBody, &ret)
 	ret["status_code"] = resp.StatusCode
